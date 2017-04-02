@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>For HTML5</title>
+
+<script>
+
+
+
+</script>
+
+</head>
+
+
+<body>
+<br/>
+<br/>
+<input type="submit" id="buttonPlayID" value="Play Again" onclick="playAgain();"/>
+<br/>
+<br/>
+<label> Play Rock paper Scissors against the Computer to find out who can reach 100 points first!
+</label>
+<br/>
+<br/>
+<br/>
+<img src="images/black.png" value="red" id="imageID" width="200" height="200"/>
+<form name="myForm">
+<input type="submit" id="1" name="input" value="rock" onclick="makeSelectionClick(this.id); return false;"/>
+<input type="submit" id="2" name="input" value="paper" onclick="makeSelectionClick(this.id); return false;"/>
+<input type="submit" id="3" name="input" value="scissors" onclick="makeSelectionClick(this.id); return false;"/>
+</form>
+
+<img src="images/black.png" value="red" id="itemID" width="200" height="200"/>
+
+
+<br/>
+<br/>
+<label for="message" id="message"></label>
+<br/>
+Player:
+<label for="playerPoints" id="playerPoints"></label>
+<br/>
+Computer:
+<label for="machinePoints" id="machinePoints"></label>
+<script type="text/javascript" src="js/RockPaperScissors.js"></script>
+
+</body>
+
+</html>
